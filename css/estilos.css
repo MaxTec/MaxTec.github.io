@@ -1,13 +1,13 @@
 .caja-flexible{
 	height: 480px;
 	display: flex;
+    flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	box-shadow: 0px 0px 10px rgba(0,0,0,.15) ;
 	margin-top: 8px;
-	    background: rgba(119,147,60,0.32);
-
-	/*margin:3px;*/
+    background: rgba(119,147,60,0.32);
+    overflow: hidden;
 }
 .productos{
 	width: 33.33%;
@@ -36,8 +36,16 @@
     border: 1px solid #CF5050 !important;
     color: #fff !important;
 }
-.productos:hover{
-	/*	background: #EA6060;
-    border: 1px solid #CF5050;
-    color: #fff;*/
+
+.texto-portafolio{
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 16px 32px;
+    position: absolute;
+    bottom:-900px;
+    background:rgba(255,255,255,.85);
+}
+.caja-flexible:hover > .texto-portafolio{
+    top:0px;
 }
