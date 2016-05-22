@@ -268,7 +268,9 @@
 		var hash = window.location.hash;
 		console.log(hash);
 		if(hash){
-			$('#tab-productos a[href="'+hash+'"]').tab('show')
+			$('#tab-productos a[href="'+hash+'"]').tab('show');
+			
+			$('html, body').animate({scrollTop: 200},1000);
 		}
 	</script>
 </body>
