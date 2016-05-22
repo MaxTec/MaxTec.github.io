@@ -1,13 +1,16 @@
 .caja-flexible{
-	height: 480px;
-	display: flex;
-    flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	height: 320px;
+    display: flex;          
+    flex-direction: column;          
+    justify-content: center;    
+    align-items: center;          
 	box-shadow: 0px 0px 10px rgba(0,0,0,.15) ;
 	margin-top: 8px;
     background: rgba(119,147,60,0.32);
     overflow: hidden;
+}
+.caja-flexible > img {
+    width: 40%;
 }
 .productos{
 	width: 33.33%;
@@ -32,21 +35,28 @@
     -o-border-radius: 4px;
 }
 .nav-tabs> li.active > a{
-	background: #EA6060 !important;
-    border: 1px solid #CF5050 !important;
+	background: #C9D787 !important;
+    border: 1px solid #BFCC80 !important;    
+    text-shadow: 1px 2px 3px rgba(0,0,0,.4);
     color: #fff !important;
 }
 
 .texto-portafolio{
-    font-size: 18px;
+    font-size: 16px;
     text-transform: uppercase;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
     text-align: center;
     padding: 16px 32px;
     position: absolute;
     bottom:-900px;
     background:rgba(255,255,255,.85);
 }
+.texto-portafolio > h3{
+    font-size: 20px;
+    font-weight: bolder;
+}
 .caja-flexible:hover > .texto-portafolio{
+    left: 0px;
     top:0px;
 }
 .icon-cont{
