@@ -65,7 +65,7 @@
 		<div class="portfolio_main">
 
 			<!-- Nav tabs -->
-			<ul class="nav nav-tabs"  role="tablist">
+			<ul class="nav nav-tabs" id="tab-productos" role="tablist">
 				<li role="presentation" class="productos active"><a href="#kit" aria-controls="kit" role="tab" data-toggle="tab">Kit</a></li>
 			    <li role="presentation" class="productos "><a href="#cabello" aria-controls="cabello" role="tab" data-toggle="tab">Cabello</a></li>
 			    <li role="presentation" class="productos "><a href="#belleza" aria-controls="belleza" role="tab" data-toggle="tab">Belleza</a></li>
@@ -264,5 +264,12 @@
 	</div>
 </div>
 </div>
+	<script type="text/javascript">
+		var hash = window.location.hash;
+		console.log(hash);
+		if(hash){
+			$('#tab-productos a[href="'+hash+'"]').tab('show')
+		}
+	</script>
 </body>
 </html>
