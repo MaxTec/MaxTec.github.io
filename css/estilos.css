@@ -74,13 +74,13 @@
     background: url(../images/kit/modificador.png) no-repeat center / 50%;
 }
 #id-hair{
-    background: url(../images/icon-belleza.jpg) no-repeat center / 200%;
+    background: url(../images/icon-cabello.jpg) no-repeat center / 200%;
 }
 #id-cursos{
     background: url(../images/icon-cursos.jpg) no-repeat center / 155%;
 }
 #id-beauty{
-    background: url(../images/icon-cabello.jpg) no-repeat center / 145%;
+    background: url(../images/icon-belleza.jpg) no-repeat center / 145%;
 }
 .icons-hover:hover > div > .icon-cont{
     box-shadow: 0px 0px 0px 10px rgba(246,5,5,0.5);
