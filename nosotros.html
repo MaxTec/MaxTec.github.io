@@ -88,37 +88,39 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="col-md-12">
 		<div class="col-md-12">
 		<h3>Acerca de Nosotros</h3>
-		<h5>Empresa especializada en el cuidado y la belleza del cabello, pestañas y uñas, se pone a sus órdenes para darle servicio en Cancún, Quintana Roo</h5>
+		
 		</div>
-		<div class="col-md-2">
+		<div class="col-md-3 pull-right">
 			<img width="100%" src="images/vidaSolis.jpg" >
 		</div>
-		<div class="col-md-10">
+		<div class="col-md-9 pull-left">
+			<h5> <strong>Visalcap® </strong> es una empresa especializada en el cuidado y tratamiento del cabello, pestañas y uñas, comprometida en brindarle el mejor servicio en Cancún, Quintana Roo.</h5>
 			<h5>Uno de nuestros propósitos, es prever y ayudar a eliminar piojos y liendres en niños en edad escolar. Algunos de los productos que manejamos son:</h5>
 			<ul>
-			<li>Piojos</li>
 			<li>Eliminación de Piojos</li>
 			<li>Productos de belleza</li>
 			<li>Productos para el cabello</li>
 			<li></li>
 			</ul>
-			<h5>Nuestros productos son naturales y únicos en México, y soy la única terapeuta que puede garantizar la eliminación de piojos en una hora.</h5>
+			<h5>Nuestros productos son naturales y únicos en México, <strong class="text-success">Vida Solis Bravo</strong> la única terapeuta que puede garantizar la eliminación de piojos en una hora.</h5>
 			<h5>No tienen más que ponerse en contacto con nosotros vía telefónica. Atendemos a nuestros clientes a través de nuestro personal calificado y experto en el cuidado, salud y belleza del cabello.</h5>
+			<div id="video-modal" class=" video-btn btn text-center">Ver Video</div>
 		</div>
 		</div>
-		<div class="col-md-12 ">
+		<!-- <div class="col-md-12 ">
 			<h3>¡Conocenos Mas!</h3>
 			<video width="60%" controls>
 				<source src="videos/PIOJOS_LISTA.m4v">
 				<source src="videos/PIOJOS_LISTA.ogv">
 			</video>
-		</div>	
+		</div> -->	
 		<div class="clearfix"></div>
 	</div>
-	<div class="cursual"><!--  start cursual  -->
+
+	<!-- <div class="cursual">
 		<h4>our happy clients<span class="line"></span></h4>
-	</div>
-	<div id="owl-demo" class="owl-carousel"><!----start-img-cursual---->
+	</div> -->
+<!-- 	<div id="owl-demo" class="owl-carousel">
 		<div class="item">
 			<div class="cau_left">
 				<img class="lazyOwl" data-src="images/c1.png" alt="Lazy Owl Image">
@@ -184,7 +186,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<img class="lazyOwl" data-src="images/c2.png" alt="Lazy Owl Image">
 			</div>
 		</div>
-	</div><!----//End-img-cursual---->
+	</div> -->
 </div>
 </div>
 <div class="footer1_bg"><!-- start footer1 -->
@@ -203,5 +205,29 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>
 </div>
 </div>
+<div id="modal-video" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Visalcap </h4>
+      </div>
+      <div class="modal-body">
+       	<video width="100%" controls>
+				<source src="videos/PIOJOS_LISTA.m4v">
+				<source src="videos/PIOJOS_LISTA.ogv">
+		</video>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<script>
+$('#video-modal').on('click', function () {
+  $('#modal-video').modal("show");
+})
+</script>
 </body>
 </html>

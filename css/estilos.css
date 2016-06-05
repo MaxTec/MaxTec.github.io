@@ -92,9 +92,21 @@
     margin-top: 30px;
 }
 /*Estilos Contactanos*/
+.main.about{
+    margin-bottom: 30px;
+    letter-spacing:0.6px;
+}
+.main.about img{
+box-shadow:1px 2px 4px rgba(0,0,0,0.4)
+}
 .main.about h5, ul{
     font-size: 16px;
     text-align: justify;
+}
+.main.about .video-btn{
+display: block;
+width: 50%;
+margin:50px auto;
 }
 .main.about ul{
     list-style: none;
