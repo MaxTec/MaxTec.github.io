@@ -100,20 +100,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<li>Eliminación de Piojos</li>
 			<li>Productos de belleza</li>
 			<li>Productos para el cabello</li>
-			<li></li>
 			</ul>
 			<h5>Nuestros productos son naturales y únicos en México, <strong class="text-success">Vida Solis Bravo</strong> la única terapeuta que puede garantizar la eliminación de piojos en una hora.</h5>
 			<h5>No tienen más que ponerse en contacto con nosotros vía telefónica. Atendemos a nuestros clientes a través de nuestro personal calificado y experto en el cuidado, salud y belleza del cabello.</h5>
-			<div id="video-modal" class=" video-btn btn text-center">Ver Video</div>
+			<div id="btn-video" class=" video-btn btn text-center"> <i class=" fa fa-play-circle fa-2x" style="vertical-align:middle;"></i>&nbsp;&nbsp;Ver Video</div>
 		</div>
 		</div>
-		<!-- <div class="col-md-12 ">
-			<h3>¡Conocenos Mas!</h3>
-			<video width="60%" controls>
-				<source src="videos/PIOJOS_LISTA.m4v">
-				<source src="videos/PIOJOS_LISTA.ogv">
-			</video>
-		</div> -->	
 		<div class="clearfix"></div>
 	</div>
 
@@ -213,9 +205,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         <h4 class="modal-title">Visalcap </h4>
       </div>
       <div class="modal-body">
-       	<video width="100%" controls>
-				<source src="videos/PIOJOS_LISTA.m4v">
-				<source src="videos/PIOJOS_LISTA.ogv">
+       	<video id="video" width="100%" controls>
+			<source src="videos/PIOJOS_LISTA.m4v">
+			<source src="videos/PIOJOS_LISTA.ogv">
 		</video>
       </div>
       <div class="modal-footer">
@@ -225,9 +217,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
   </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 <script>
-$('#video-modal').on('click', function () {
-  $('#modal-video').modal("show");
-})
+$('#btn-video').on('click', function () {
+  $('#modal-video').modal("show").on("hidden.bs.modal", function(){
+  	document.getElementById("video").pause();
+  });
+});
 </script>
 </body>
 </html>

@@ -75,6 +75,9 @@
 }
 /* Clickable class fix problem with hover on touch devices */
 /* Use it for non-touch hover action */
+.owl-theme .owl-controls.clickable .owl-buttons .owl-prev{
+	margin-right: 20px;
+}
 .owl-theme .owl-controls.clickable .owl-buttons div:hover{
 	text-decoration: none;
 }
@@ -466,11 +469,13 @@
 	
 	}
 	#owl-demo .item img{
+		/*max-height: 150px;*/
 		width: 160px;
 		margin: 0 auto;
 		text-align: center;
 	}
 	.cau_left a img{
+		/*max-height: 150px;*/
 		width: 160px;
 		margin: 0 auto;
 		text-align: center;
