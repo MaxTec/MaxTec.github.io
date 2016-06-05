@@ -91,3 +91,11 @@
     width: 100%;
     margin-top: 30px;
 }
+/*Estilos Contactanos*/
+.main.about h5, ul{
+    font-size: 16px;
+    text-align: justify;
+}
+.main.about ul{
+    list-style: none;
+}
