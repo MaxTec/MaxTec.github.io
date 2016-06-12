@@ -85,13 +85,13 @@
 	position: absolute;
 	top: -22%;
 	right: 4%;
-	background: #7F8C8C url(../images/arrows.png) no-repeat 9px 6px;
+	background: teal url(../images/arrows.png) no-repeat 9px 6px;
 }
 .owl-next{
 	position: absolute;
 	top: -22%;
 	right: 0%;
-	background: #7F8C8C url(../images/arrows.png) no-repeat -26px 6px;
+	background: teal url(../images/arrows.png) no-repeat -26px 6px;
 }
 /* Styling Pagination*/
 
