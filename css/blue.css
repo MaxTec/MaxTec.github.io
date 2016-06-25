@@ -958,7 +958,7 @@ h3.style{
 .blog_right .prices{
 	background: white;
 	box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
-	height: 200px;
+	height: auto;
 	border-radius: 5px;
 }
 .blog_right p{
@@ -1572,6 +1572,15 @@ font-size: 1.8rem;
 		float: none;
 		margin: auto;
 		width: 30%;
+	}
+	ul.lista{
+		width: 100%!important;
+	}
+	.nuevo-curso  .precios{
+		width:100%!important;
+	}
+	div.nuevo-curso{
+		background-size: cover;
 	}
 	.read_more {
 		left: 36%;
