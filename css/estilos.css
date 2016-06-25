@@ -7,6 +7,17 @@
     font-size: 16px; 
     padding: 2% 8%;
 }
+.ancla{
+    color: #333;
+}
+.ancla:hover{
+    color: #333;
+    text-decoration: none;   
+}
+#contacto > hr{
+    margin-left: -16%; 
+    margin-right: -16%;
+}
 .icono-contacto{
     border-radius: 50%;
     margin-right: 10px;
@@ -78,6 +89,7 @@
 }
 .caja-flexible:hover > .texto-portafolio{
     left: 0px;
+    right: 0px;
     top:0px;
 }
 .icon-cont{
@@ -176,4 +188,14 @@ margin:50px auto;
 }
 .nuevo-curso span.precio{
 font-size: 24px;
+}
+
+@media screen and (max-width: 768px){
+    #contacto{
+        width: 95%;
+    }
+    #contacto > hr{
+        margin-left: -10%; 
+        margin-right: -10%;   
+    }
 }
