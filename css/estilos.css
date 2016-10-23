@@ -92,7 +92,7 @@
     right: 0px;
     top:0px;
 }
-.icon-cont{
+/*.icon-cont{
     display: block;
     height: 100px;
     padding: 10px;
@@ -114,7 +114,7 @@
 }
 #id-beauty{
     background: url(../images/icon-belleza.png) no-repeat center / 145%;
-}
+}*/
 .icons-hover:hover > div > .icon-cont{
     box-shadow: 0px 0px 0px 10px rgba(246,5,5,0.5);
     transform: scale(1.05,1.05);
@@ -189,7 +189,64 @@ margin:50px auto;
 .nuevo-curso span.precio{
 font-size: 24px;
 }
+.iconos-productos{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px;
+}
+.iconos-productos .producto-item{
+    background: #fff;
+    margin:10px;
+    padding:10px;
+    box-sizing: border-box;
+    text-align: center;
+    width: 20%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px #47817E inset;
+}
+.iconos-productos .producto-item h3{
+    white-space: nowrap;
+}
+.iconos-productos .producto-item p{
+   font-size: 14px;
+}
+.iconos-productos .producto-item a{
+    width: 100%;
+}
+.iconos-productos .producto-item-icon{
+    position: relative;
+    overflow: hidden;
+    height: 130px;
+    width: 130px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 6px rgba(0,0,0,0.1);
+    transition: all 0.5s ease;
+}
+.iconos-productos .producto-item-icon:hover{
+    box-shadow: 0px 0px 0px 6px rgba(255,0,0,0.4);
+}
+.iconos-productos .producto-item-icon img{
+    position: absolute;
+    display: block;
+    left:0;
+    top:-20%;
+    max-width: 100%;
+}
+.iconos-productos .producto-item-icon.custom-top img{
+    width: 130%;
+    max-width: initial;
+    /*top:10px;*/
+}
 
+/*.iconos-productos .producto-item:hover{
+    background: red;
+}*/
+/*.iconos-productos .producto-item:hover a{
+    background: red;
+}*/
 @media screen and (max-width: 768px){
     #contacto{
         width: 95%;

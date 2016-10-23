@@ -84,10 +84,21 @@
     width:100%;
     height:100%;
 }
+#fwslider .slide_content:after {
+    content: '';
+    top:0;
+    left:0;
+    position: absolute;
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,0.4);
+}
 
 #fwslider .slide_content_wrap { /* Slider Text Content Container Style */
     max-width:1280px;
     margin:12% auto;
+    position: relative;
+    z-index: 90;
 }
 
 #fwslider .title {  /* Slider Title Style */
