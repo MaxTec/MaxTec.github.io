@@ -45,7 +45,7 @@
     width: 40%;
 }
 .productos{
-	width: 33.33%;
+	width: 20%;
 	text-align: center;
 }
 .productos > a{
@@ -197,5 +197,8 @@ font-size: 24px;
     #contacto > hr{
         margin-left: -10%; 
         margin-right: -10%;   
+    }
+    .productos > a{
+        font-size: 10px;
     }
 }
