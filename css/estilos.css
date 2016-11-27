@@ -36,13 +36,13 @@
     flex-direction: column;          
     justify-content: center;    
     align-items: center;          
-	box-shadow: 0px 0px 10px rgba(0,0,0,.15) ;
+	/*box-shadow: 0px 0px 10px rgba(0,0,0,.15) ;*/
 	margin-top: 8px;
-    background: rgba(119,147,60,0.32);
+    /*background: rgba(119,147,60,0.32);*/
     overflow: hidden;
 }
 .caja-flexible > img {
-    width: 40%;
+    width: 80%;
 }
 .productos{
 	width: 20%;
