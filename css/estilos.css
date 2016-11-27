@@ -97,29 +97,6 @@
     right: 0px;
     top:0px;
 }
-/*.icon-cont{
-    display: block;
-    height: 100px;
-    padding: 10px;
-    margin:30px auto ;
-    width:100px;
-    border-radius: 50%;
-    box-shadow: 0px 0px 0px 10px rgba(0,0,0,0.1);
-    transition: all 0.5s ease;
-
-}
-#id-kit{
-    background: url(../images/kit/modificador.png) no-repeat center / 50%;
-}
-#id-hair{
-    background: url(../images/icon-cabello.png) no-repeat center / 200%;
-}
-#id-cursos{
-    background: url(../images/icon-cursos.png) no-repeat center / 155%;
-}
-#id-beauty{
-    background: url(../images/icon-belleza.png) no-repeat center / 145%;
-}*/
 .icons-hover:hover > div > .icon-cont{
     box-shadow: 0px 0px 0px 10px rgba(246,5,5,0.5);
     transform: scale(1.05,1.05);
@@ -135,7 +112,8 @@
     letter-spacing:0.6px;
 }
 .main.about img{
-box-shadow:1px 2px 4px rgba(0,0,0,0.4)
+box-shadow:1px 2px 4px rgba(0,0,0,0.4);
+border-radius:50%;
 }
 .main.about h5, ul{
     font-size: 16px;
@@ -153,8 +131,9 @@ margin:50px auto;
     /*border: 1px solid teal;*/
     border-radius: 5px;
     padding: 10px 0px;
-    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 50%),url("../images/courses/bkg-curso1.jpg") no-repeat;
-    background-size:100%;
+    /*background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 50%),url("../images/courses/bkg-curso1.jpg") no-repeat;*/
+    background-size:100%!important;
+    background-repeat: no-repeat!important;
     padding-top: 0;
 }
 /*.nuevo-curso .bgr-inner{
